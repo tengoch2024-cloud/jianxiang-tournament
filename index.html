@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2025 第四屆彰化縣健祥盃全國圍棋公開賽｜賽程 & 名次</title>
+  <title>2025獅子盃全國圍棋公開賽｜賽程 & 名次</title>
   <style>
     body { font-family: 'Noto Sans TC','Microsoft JhengHei',system-ui,sans-serif; margin:0; padding:10px; background:#f4f7f6; color:#333; }
     .container { max-width:900px; margin:0 auto; background:#fff; padding:15px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,.08); }
@@ -46,7 +46,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>🏆 2025 第四屆彰化縣健祥盃全國圍棋公開賽</h1>
+    <h1>🏆 2025獅子盃全國圍棋公開賽</h1>
     <div class="update-info">請重新整理頁面以更新賽程：<span id="lastUpdated"></span></div>
 
     <div class="filter-section">
@@ -84,7 +84,7 @@
   const DATA_URL = "./data.json";
   const RANK_FIELDS = ["名次公佈","名次公布","冠軍","亞軍","季軍","殿軍","優勝","第一名","第二名","第三名","第四名","第五名","第六名","第七名","第八名","第九名","第十名"];
   const defaultScheduleData = [{ group:"六段組" },{ group:"五段組" },{ group:"四段組" }];
-  const customGroupOrder = ["六段組","五段組","四段組","三段組","二段組","初段組","甲組","乙組","丙組","丁組","戊組","己組","庚組","辛A組","辛B組","入門A組","入門B組","幼兒組"];
+  const customGroupOrder = ["五六段組","一二段組","乙丙組","丁戊組","六段組","五段組","四段組","三段組","二段組","初段組","甲組","乙組","丙組","丁組","戊組","己組","庚組","辛A組","辛B組","入門A組","入門B組","幼兒組"];
   let allData = [];
 
   function nowStr(){ return new Date().toLocaleString('zh-TW',{year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}); }
