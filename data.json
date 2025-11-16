@@ -70,7 +70,7 @@
   {
     "group": "甲組",
     "round1": "9:00",
-    "round2": null,
+    "round2": "9:50",
     "round3": null,
     "round4": null,
     "round5": null,
@@ -87,7 +87,7 @@
   {
     "group": "乙丙組",
     "round1": "9:00",
-    "round2": null,
+    "round2": "10:00",
     "round3": null,
     "round4": null,
     "round5": null,
@@ -104,7 +104,7 @@
   {
     "group": "丁戊組",
     "round1": "9:00",
-    "round2": null,
+    "round2": "9:50",
     "round3": null,
     "round4": null,
     "round5": null,
@@ -138,8 +138,8 @@
   {
     "group": "辛組",
     "round1": "9:00",
-    "round2": null,
-    "round3": null,
+    "round2": "9:40",
+    "round3": "10:20",
     "round4": null,
     "round5": null,
     "award": null,
@@ -155,7 +155,7 @@
   {
     "group": "入門A組",
     "round1": "9:00",
-    "round2": null,
+    "round2": "9:35",
     "round3": null,
     "round4": null,
     "round5": null,
@@ -172,8 +172,8 @@
   {
     "group": "入門B組",
     "round1": "9:00",
-    "round2": null,
-    "round3": null,
+    "round2": "9:40",
+    "round3": "9:55",
     "round4": null,
     "round5": null,
     "award": null,
@@ -189,8 +189,8 @@
   {
     "group": "幼兒組",
     "round1": "9:00",
-    "round2": null,
-    "round3": null,
+    "round2": "9:35",
+    "round3": "10:00",
     "round4": null,
     "round5": null,
     "award": null,
