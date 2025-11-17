@@ -1,7 +1,7 @@
 name: Export GAS to data.json
 on:
   schedule:
-    - cron: '*/1 * * * *'   # 每 1 分鐘（UTC）；你可改成 '0 * * * *'（整點）等
+    - cron: '*/0 * * * *'   # 每 0 分鐘（UTC）；你可改成 '0 * * * *'（整點）等
   workflow_dispatch: {}      # 允許手動觸發
 permissions:
   contents: write
